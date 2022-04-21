@@ -9,7 +9,7 @@ This dataset contains 64,000 customers who last purchased within twelve months. 
 - 1/3 were randomly chosen to receive an e-mail campaign featuring Womens merchandise
 - 1/3 were randomly chosen to not receive an e-mail campaign
 
-![Marketing Experiment Overview](/emailmarketing_overview.jpg)
+![Marketing Experiment Overview](/emailmarketing_overview.png)
 ## Methodology
 A number of techniques were tried to esimate the effect of marketing in Control vs other groups (**Average Treatment Effect**):
 
