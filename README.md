@@ -1,5 +1,5 @@
 # Email Marketing Causal Analysis
-Causal analysis of email marketing campaign. Used OLS regression, DoWhy &amp; CausalML to calculate treatment effect.
+Causal analysis of email marketing campaign. Used OLS regression, DoWhy & CausalML to calculate treatment effects.
 
 ## Problem Overview
 In the area of marketing, email is a go-to method for promoting products. It is cheap, fast, and effective. Most marketers run an experiment to see whether or not their email-marketing works or not. In this domain, I analyzed whether or not emailing would affect our revenue (by observing the spending by each customer). We'll be looking at factors that can predict spending (in the next few weeks). During a period of two weeks following the e-mail campaign, results were tracked.  job is to tell the world if the Mens or Womens e-mail campaign was successful.
@@ -9,6 +9,7 @@ This dataset contains 64,000 customers who last purchased within twelve months. 
 - 1/3 were randomly chosen to receive an e-mail campaign featuring Womens merchandise
 - 1/3 were randomly chosen to not receive an e-mail campaign
 
+![Marketing Experiment Overview](/emailmarketing_overview.jpg)
 ## Methodology
 A number of techniques were tried to esimate the effect of marketing in Control vs other groups (**Average Treatment Effect**):
 
