@@ -13,12 +13,17 @@ This dataset contains 64,000 customers who last purchased within twelve months. 
 ## Methodology
 A number of techniques were tried to esimate the effect of marketing in Control vs other groups (**Average Treatment Effect**):
 
-- Regression Analysis (using Propensity Estimates)
-- DoWhy
-- Causal ML (XLearner, TLearner, SLearner, RLearner)
+### Regression Analysis (using Propensity Estimates)
+![Regression Summary](/ols_summary.png)
 
-Other techniques tried:
-- Feature Importances (Shapley) to predict customer spending
+### DoWhy & Causal ML (XLearner, TLearner, SLearner, RLearner)
+![CATE](/cate_estimate.png)
+
+#### Feature Importances (Shapley) to predict customer spending
+![Regression Summary](/featureimportance.png)
+![Regression Summary](/interaction_featureimportance.png)
+
+Also tried:
 - Refutation of Estimate (Random Subset, Random Common Cause, Placebo Variable)
 - Conditional & Individual Treatment Effects
 
